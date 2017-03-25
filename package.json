@@ -16,6 +16,7 @@
     "url": "git+https://github.com/larsha/bolaget.io-sdk-js.git"
   },
   "keywords": [
+    "api",
     "js",
     "sdk",
     "systembolaget",
