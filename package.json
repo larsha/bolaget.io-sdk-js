@@ -8,7 +8,6 @@
   },
   "scripts": {
     "build": "babel src/app.js --out-file lib/app.js",
-    "prepublish": "npm run build",
     "test": "mocha --compilers babel-register --colors src/*.spec.js"
   },
   "repository": {
