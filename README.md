@@ -10,12 +10,12 @@ npm install bolaget.io
 ```
 
 ## Usage
-```
+```javascript
 import { products } from 'bolaget.io'
 ```
 
 ### Get all products
-```
+```javascript
 try {
   const data = await products()
 } catch (e) {
@@ -24,7 +24,7 @@ try {
 ```
 
 ### Get products, filtered based on available params at https://github.com/larsha/bolaget.io
-```
+```javascript
 const limit = 5
 const koscher = true
 try {
