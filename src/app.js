@@ -5,6 +5,7 @@ const URI = `https://bolaget.io`
 async function get (options) {
   try {
     return await request(options)
+      .then(JSON.parse)
   } catch (e) {
     throw e
   }
