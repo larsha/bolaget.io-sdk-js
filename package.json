@@ -7,7 +7,7 @@
     "node": "7.7.4"
   },
   "scripts": {
-    "build": "rm -rf lib/app.js && babel src/app.js --out-file lib/app.js",
+    "build": "babel src/app.js --out-file lib/app.js",
     "prepublish": "npm run build",
     "test": "mocha --compilers babel-register --colors src/*.spec.js"
   },
