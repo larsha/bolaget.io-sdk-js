@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/larsha/bolaget.io-sdk-js.svg?branch=master)](https://travis-ci.org/larsha/bolaget.io-sdk-js)
+
 # bolaget.io-sdk-js
 JS SDK for (https://bolaget.io)
 
