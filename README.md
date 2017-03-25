@@ -17,7 +17,7 @@ import { products } from 'bolaget.io'
 ### Get all products
 ```
 try {
-  const products = await products()
+  const data = await products()
 } catch (e) {
   // error handling
 }
@@ -28,7 +28,7 @@ try {
 const limit = 5
 const koscher = true
 try {
-  const products = await products({ limit, koscher })
+  const data = await products({ limit, koscher })
 } catch (e) {
   // error handling
 }
