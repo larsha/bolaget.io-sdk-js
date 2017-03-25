@@ -1,0 +1,42 @@
+{
+  "name": "bolaget.io",
+  "version": "1.0.0",
+  "description": "JS SDK for bolaget.io (https://bolaget.io)",
+  "main": "lib/app.js",
+  "engines": {
+    "node": "7.7.4"
+  },
+  "scripts": {
+    "build": "rm -rf lib/app.js && babel src/app.js --out-file lib/app.js",
+    "prepublish": "npm run build",
+    "test": "mocha --compilers babel-register --colors src/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsha/bolaget.io-sdk-js.git"
+  },
+  "keywords": [
+    "js",
+    "sdk",
+    "systembolaget",
+    "bolaget.io"
+  ],
+  "author": "Fredrik Lack <fredrik@brynn.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsha/bolaget.io-sdk-js/issues"
+  },
+  "homepage": "https://github.com/larsha/bolaget.io-sdk-js#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0"
+  }
+}
