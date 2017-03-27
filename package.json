@@ -7,7 +7,7 @@
     "node": "7.7.4"
   },
   "scripts": {
-    "build": "babel src/app.js --out-file lib/app.js",
+    "build": "rm -rf lib && mkdir lib && babel src/app.js --out-file lib/app.js",
     "test": "mocha --compilers babel-register --colors src/*.spec.js"
   },
   "repository": {
