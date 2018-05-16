@@ -1,6 +1,6 @@
 {
   "name": "bolaget.io",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JS SDK for bolaget.io (https://bolaget.io)",
   "main": "lib/app.js",
   "engines": {
