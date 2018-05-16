@@ -62,7 +62,7 @@ try {
 
 ```javascript
 try {
-  const data = await product("0146")
+  const data = await store("0146")
 } catch (e) {
   // error handling
 }
