@@ -21,22 +21,22 @@
     "systembolaget",
     "bolaget.io"
   ],
-  "author": "Fredrik Lack <fredrik@brynn.se>",
+  "author": "Fredrik Lack <fredrik@fre.la>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/larsha/bolaget.io-sdk-js/issues"
   },
   "homepage": "https://github.com/larsha/bolaget.io-sdk-js#readme",
   "dependencies": {
-    "request": "^2.81.0",
-    "request-promise-native": "^1.0.3"
+    "request": "2.81.0",
+    "request-promise-native": "1.0.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.0",
-    "babel-preset-env": "^1.2.2",
-    "babel-register": "^6.24.0",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0",
-    "mocha": "^3.2.0"
+    "babel-cli": "6.24.0",
+    "babel-preset-env": "1.2.2",
+    "babel-register": "6.24.0",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "mocha": "3.2.0"
   }
 }

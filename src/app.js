@@ -1,6 +1,6 @@
 import request from 'request-promise-native'
 
-const URI = `https://bolaget.io`
+const URI = `https://bolaget.io/v1`
 
 async function get (options) {
   try {
